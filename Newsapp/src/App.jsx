@@ -26,6 +26,7 @@ return(
   <div>
     <input type="text" placeholder="Enter news type" value={news} onChange={(e) => setNews(e.target.value)} />
     <button onClick={findNews}>Find News</button>
+    <h1>{findNews()}</h1>
   </div>
 )
 }
